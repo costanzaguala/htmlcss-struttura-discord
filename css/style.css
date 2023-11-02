@@ -71,11 +71,19 @@
 
 /* MAIN */
 
-.sezione-1 {
+main section .sezione-1 {
     padding: 100px 0;
 }
 
+main > section:nth-child(even) {
+    background-color: #D3D3D3;
+}
 
+/* FOOTER */
+
+footer {
+    background-color: #23272A;
+}
 /* DEBUG */
 
 .debug .header1 {
@@ -112,3 +120,10 @@
     border: 1px dashed black;
     min-height: 400px;
 }
+
+.debug main .sezione-2 {
+    background-color: #228B21;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
