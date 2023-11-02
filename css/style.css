@@ -30,6 +30,14 @@
     margin: 0 auto;
 }
 
+.col-3-5 {
+    width: calc((100% / 5) * 3);
+}
+
+.col-2-5 {
+    width: calc((100% / 5) * 2);
+}
+
 /* HEADER */
 
 .header1 .menu-container {
@@ -61,7 +69,12 @@
     padding: 100px;
 }
 
-/* BODY */
+/* MAIN */
+
+.sezione-1 {
+    padding: 100px 0;
+}
+
 
 /* DEBUG */
 
@@ -84,6 +97,18 @@
 
 .debug .header2 .homepage-image{
     background-color: #EE81ED;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .row .col-3-5 {
+    background-color: #1D90FF;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main .row .col-2-5 {
+    background-color: #FFC0CA;
     border: 1px dashed black;
     min-height: 400px;
 }
