@@ -38,6 +38,14 @@
     width: calc((100% / 5) * 2);
 }
 
+.col-1-4 {
+    width: calc((100% / 4) * 1);
+}
+
+.col-3-4 {
+    width: calc((100% / 4) * 3);
+}
+
 /* HEADER */
 
 .header1 .menu-container {
@@ -84,6 +92,27 @@ main > section:nth-child(even) {
 footer {
     background-color: #23272A;
 }
+
+.footer-1 {
+    padding: 40px;
+}
+
+hr {
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-container {
+    min-height: 100px;
+    padding: 40px 0;
+}
+
+.container-footer-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container
 /* DEBUG */
 
 .debug .header1 {
@@ -125,5 +154,33 @@ footer {
     background-color: #228B21;
     border: 1px dashed black;
     min-height: 400px;
+}
+
+.debug .footer-1-parte-principale {
+    background-color: #F08080;
+}
+
+.debug .footer-1-parte-principale > *{
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug .footer-1-parte-principale .seconda-parte {
+    background-color: #21B1A9;
+}
+
+
+.debug .footer-1-parte-principale .seconda-parte > * {
+    border: 1px dashed white;
+}
+
+.debug .footer-container {
+    background-color: #80FED3;
+}
+
+.debug .footer-container .container-footer-2 > * {
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+    padding: 5px;
 }
 
