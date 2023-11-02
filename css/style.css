@@ -25,10 +25,31 @@
     width: calc((100% / 6) * 4);
 }
 
+.small-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 .header1 .menu-container {
     height: 40px;
+}
+
+.header1 .menu-container > * {
+    padding: 10px;
+}
+
+.header1 .link-container {
+    text-align: center;
+}
+
+.header1 .login-container {
+    text-align: right;
+}
+
+.header1 .link-container ul li {
+    display: inline-block;
 }
 
 
@@ -37,9 +58,8 @@
 /* DEBUG */
 
 .debug .header1 {
-    height: 60px;
     background-color: #AED9E5;
-    padding-top: 10px;
+    padding: 10px 0px;
 }
 
 .debug .header1 .row {
@@ -48,4 +68,15 @@
 
 .debug .header1 .row > * {
     border: 1px dashed black;
+}
+
+.debug .header2 {
+    background-color: #08008B;
+    min-height: 600px;
+}
+
+.debug .header2 .homepage-image{
+    background-color: #EE81ED;
+    border: 1px dashed black;
+    min-height: 350px;
 }
