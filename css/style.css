@@ -52,6 +52,14 @@
     display: inline-block;
 }
 
+.header1 .link-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.header2 {
+    padding: 100px;
+}
 
 /* BODY */
 
@@ -72,11 +80,10 @@
 
 .debug .header2 {
     background-color: #08008B;
-    min-height: 600px;
 }
 
 .debug .header2 .homepage-image{
     background-color: #EE81ED;
     border: 1px dashed black;
-    min-height: 350px;
+    min-height: 400px;
 }
